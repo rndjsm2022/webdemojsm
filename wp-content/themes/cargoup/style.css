@@ -1,0 +1,117 @@
+/*
+Theme Name: Cargoup  
+Theme URI: https://themeansar.com/free-themes/cargoup/
+Author: themeansar
+Author URI: https://themeansar.com
+Template: industryup
+Description: Cargoup WordPress theme ideal for a business or perfect solutions for all types of factory, Industry, Industrial, Construction, Engineering, Machinery Business, Commodity Business, Power, Rail Business, Airplane, Ship Business, Oil & Gas Business, Petroleum websites, Agricluture. The theme is responsive, WPML, Retina ready, SEO friendly Live preview : https://demos.themeansar.com/industryup/three/
+Version: 0.3
+Tested up to: 5.9
+Requires PHP: 7.0
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, translation-ready, custom-background, custom-logo, featured-images, footer-widgets, full-width-template, blog, e-commerce, entertainment
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: cargoup
+*/
+
+.navbar-wp .navbar-toggler:focus {
+   border: 1px solid #fff;
+}
+.bs-trans-hd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 2;
+}
+.bs-trans-hd .bs-head-detail{
+	z-index: 2;
+}
+.bs-trans-hd .navbar-wp {
+	background: rgba(0,0,0,0.5);
+
+}
+.bs-trans-hd .header_widgets {
+    padding: 20px 0;
+	
+}
+.bs-headwidget.bs-trans-hd  .navbar-wp{
+	position: unset;
+	top: 0;
+	height: 85px;
+}
+.bs-trans-hd .bs-main-nav {
+    position: relative;
+   
+}
+.bs-trans-hd  .desk-menu{
+	position: relative;
+}
+.bs-trans-hd .head_widget {
+    display: flex;
+    align-items: center;
+}
+.bs-trans-hd .header_widgets_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bs-trans-hd .desk-header .msearch {
+    margin-right: 10px;
+}
+.bs-slider .bs-slide  {
+    height: 800px;
+    padding-top: 10%;
+}
+.bs-breadcrumb-section .overlay {
+    padding: 300px 0 100px 0;
+}
+@media (max-width: 991.98px) {
+    .container.mobi-menu {
+        display: block;
+        background: unset;
+    }
+}
+/* ------------- */
+
+.bs-headwidget.bs-trans-hd  .navbar-wp {
+    position: unset;
+    height: unset;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+	
+}
+.bs-headwidget.bs-trans-hd .navbar-wp .navbar-nav > li > a {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.bs-headwidget .navbar-wp .navbar-nav > li> a:first-child {
+    padding-left: 0;
+
+}
+.container.mobi-menu + div {
+    height: auto !important;
+}
+
+@media (max-width: 991.98px) {
+    .bs-headwidget.bs-trans-hd  .navbar-wp {
+        padding: 0 10px;        
+    }
+}
+
+@media only screen and (max-width: 640px)
+{
+.site-branding-text .site-title a {
+    color: #fff;
+}
+}
+
+.post_content a, .entry-content a, .comment a {
+    text-decoration: underline;
+}
+
+.post-items ul:not(.post-categories) li a,.post-items ol:not(.post-categories) li a, .post-items table a, strong a, blockquote a, code a, p a, span:not(.author-name):not(.comments-link):not(.posted-on):not(.post-list) a, .navigation.posts-navigation .nav-links a:hover,
+.navigation.posts-navigation .nav-links a:hover, #cancel-comment-reply-link, .comment-reply-link {
+    text-decoration: underline;
+}
